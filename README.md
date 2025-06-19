@@ -1,50 +1,89 @@
-# Welcome to your Expo app 👋
+🧠 NeuroNote
+NeuroNote is a minimal and intuitive to-do list app built using React Native (Expo). It helps users create, track, complete, and delete tasks in a simple and efficient way — while also supporting search and persistent local storage using AsyncStorage.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+✨ Features
+✅ Add new tasks with one click
 
-## Get started
+🔍 Search through tasks in real-time
 
-1. Install dependencies
+🗂️ Mark tasks as complete/incomplete
 
-   ```bash
-   npm install
-   ```
+🗑️ Delete tasks with confirmation
 
-2. Start the app
+💾 Local storage using AsyncStorage
 
-   ```bash
-   npx expo start
-   ```
+🔄 State preserved across app restarts
 
-In the output, you'll find options to open the app in a
+⚡ Smooth UI built with React Native and Expo
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+📸 Preview
+(You can add screenshots here, e.g. of the home screen, search bar, or task list)
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+📦 Tech Stack
+React Native
 
-## Get a fresh project
+Expo
 
-When you're ready, run:
+TypeScript
 
-```bash
-npm run reset-project
-```
+AsyncStorage (local storage)
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+React Native Gesture Handler
 
-## Learn more
+Expo Checkbox
 
-To learn more about developing your project with Expo, look at the following resources:
+UUID (for unique task IDs)
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+🚀 Getting Started
+Prerequisites
+Node.js and npm
 
-## Join the community
+Expo CLI:
 
-Join our community of developers creating universal apps.
+bash
+Copy
+Edit
+npm install -g expo-cli
+Installationn 
+bash
+Copy
+Edit
+git clone https://github.com/Ars062/NeuroNote.git
+cd NeuroNote
+npm install
+expo start
+Scan the QR code using the Expo Go app oyour phone (Android/iOS) to run the app.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+📂 Project Structure
+bash
+Copy
+Edit
+NeuroNote/
+├── assets/
+│   └── images/
+│       └── original.jpeg     # App logo
+├── components/
+├── screens/
+│   └── HomeScreen.tsx        # Main to-do logic and UI
+├── App.tsx                   # Entry point
+└── ...
+🧠 Why NeuroNote?
+The name "NeuroNote" reflects the app's aim to organize thoughts and to-do items as efficiently as neurons fire — with minimal friction and maximum clarity.
+
+🛠️ Future Improvements
+ Dark mode toggle
+
+ Task reminders & notifications
+
+ Cloud sync
+
+ Categorized task group
+
+
+
+
+
+
+
+
+
