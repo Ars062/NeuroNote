@@ -53,7 +53,7 @@ Usage Guide
 
 Create an Account: Use the signup form to register
 
-Login: Access your account using your credentials
+Login: Access your account with your credentials
 
 Add Tasks: Use the input field at the bottom to add new tasks
 
@@ -68,9 +68,10 @@ Delete tasks using the trash icon
 Search: Use the search bar to quickly find specific tasks
 
 App Demonstration
+Download the app:https://expo.dev/accounts/ars062/projects/NeuroNote/builds/2aa9ab10-4320-4eff-8e03-201a7865d8e4
 
 A demonstration video of the application is available here:
-Watch the demo
+Watch the demo: https://drive.google.com/file/d/16mPkntCyZXemh_Xq4-d6nNttQIPwlZqU/view?usp=sharing
 
 Technical Decisions
 Why Expo?
@@ -87,4 +88,4 @@ The application follows a modular component structure with clear separation of c
 
 The main App component manages authentication state and task logic.
 
-TodoItems is a dedicated component for displaying and interacting with individual tasks, improving reusability and code organization.
+TodoItems component is dedicated to displaying and interacting with individual tasks, improving reusability and code organization.
